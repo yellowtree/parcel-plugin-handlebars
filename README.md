@@ -1,6 +1,19 @@
+# parcel-plugin-handlebars-benz
 
+[![npm](https://img.shields.io/npm/v/parcel-plugin-handlebars-benz.svg)](https://www.npmjs.com/package/parcel-plugin-handlebars-benz)
 
-# parcel-plugin-handlebars [![npm](https://img.shields.io/npm/v/parcel-plugin-handlebars.svg)](https://www.npmjs.com/package/parcel-plugin-handlebars)
+**Update:** Add multi-path supported in custom configuration `handlebars.config.js` or `hbs.config.js`.
+
+```js
+module.exports = {
+  partials: ['src/markup/partials', 'src/markup2/partials'],
+  /* and also data, decorators, helpers, layouts */
+};
+```
+
+***
+
+# parcel-plugin-handlebars
 
 [【What is Parcel】](https://parceljs.org/)[【What is Handlebars】](http://handlebarsjs.com/)
 
