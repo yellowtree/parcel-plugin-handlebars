@@ -2,7 +2,9 @@
 
 [![npm](https://img.shields.io/npm/v/parcel-plugin-handlebars-benz.svg)](https://www.npmjs.com/package/parcel-plugin-handlebars-benz)
 
-**Update:** Add multi-path supported in custom configuration `handlebars.config.js` or `hbs.config.js`.
+**Update:** 
+
+ - Fixed parcel watch and cache issue.
 
 ```js
 module.exports = {
