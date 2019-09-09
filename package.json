@@ -1,5 +1,5 @@
 {
-  "name": "parcel-plugin-handlebars-nf",
+  "name": "@native_finance/parcel-plugin-handlebars",
   "version": "0.4.9",
   "description": "Parcel plugin to compile handlebars layouts templates.",
   "main": "index.js",
