@@ -1,6 +1,6 @@
 # parcel-plugin-handlebars-nf
 
-[![npm](https://img.shields.io/npm/v/parcel-plugin-handlebars-benz.svg)](https://www.npmjs.com/package/parcel-plugin-handlebars-benz)
+[![npm](https://img.shields.io/npm/v/@native_finance/parcel-plugin-handlebars.svg)](https://www.npmjs.com/package/@native_finance/parcel-plugin-handlebars)
 
 **Update:**
 
