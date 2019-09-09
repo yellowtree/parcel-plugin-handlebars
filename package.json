@@ -26,21 +26,21 @@
   },
   "homepage": "https://github.com/BenzLeung/parcel-plugin-handlebars#readme",
   "peerDependencies": {
-    "front-matter": "^2.3.0",
-    "handlebars": "^4.0.11",
+    "front-matter": "^3.0.2",
+    "handlebars": "^4.2.0",
     "handlebars-helpers": "^0.10.0",
     "handlebars-layouts": "^3.1.4",
     "handlebars-wax": "^6.1.0",
-    "parcel-bundler": "^1.4.1"
+    "parcel-bundler": "^1.12.3"
   },
   "dependencies": {
-    "front-matter": "^2.3.0",
-    "globby": "^8.0.1",
-    "handlebars": "^4.0.11",
+    "front-matter": "^3.0.2",
+    "globby": "^10.0.1",
+    "handlebars": "^4.2.0",
     "handlebars-helpers": "^0.10.0",
     "handlebars-layouts": "^3.1.4",
     "handlebars-wax": "^6.1.0",
-    "parcel-bundler": "^1.4.1"
+    "parcel-bundler": "^1.12.3"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.1",
