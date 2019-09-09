@@ -1,4 +1,4 @@
-# parcel-plugin-handlebars-nf
+# @native_finance/parcel-plugin-handlebars
 
 [![npm](https://img.shields.io/npm/v/@native_finance/parcel-plugin-handlebars.svg)](https://www.npmjs.com/package/@native_finance/parcel-plugin-handlebars)
 
