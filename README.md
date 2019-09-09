@@ -1,10 +1,11 @@
-# parcel-plugin-handlebars-benz
+# parcel-plugin-handlebars-nf
 
 [![npm](https://img.shields.io/npm/v/parcel-plugin-handlebars-benz.svg)](https://www.npmjs.com/package/parcel-plugin-handlebars-benz)
 
-**Update:** 
+**Update:**
 
- - Fixed parcel watch and cache issue.
+- Updated dependacies removed peer dependacies
+- Fixed parcel watch and cache issue.
 
 ```js
 module.exports = {
@@ -15,7 +16,7 @@ module.exports = {
 
 ***
 
-# parcel-plugin-handlebars
+## parcel-plugin-handlebars
 
 [【What is Parcel】](https://parceljs.org/)[【What is Handlebars】](http://handlebarsjs.com/)
 
@@ -32,21 +33,21 @@ module.exports = {
 Install with [npm](https://www.npmjs.com/):
 
 ```bash
-$ npm install --save parcel-plugin-handlebars
+npm install --save parcel-plugin-handlebars
 ```
 
 Install with [yarn](https://yarnpkg.com):
 
 ```bash
-$ yarn add parcel-plugin-handlebars
+yarn add parcel-plugin-handlebars
 ```
 
 The plugin will process any templated handlebars file extensions (.hbs, .handlebars and .html)
 
 ## Examples
 
-* [simple](https://github.com/TheBlackBolt/parcel-plugin-handlebars/tree/master/examples/simple)
-* [advanced](https://github.com/TheBlackBolt/parcel-plugin-handlebars/tree/master/examples/advanced)
+- [simple](https://github.com/TheBlackBolt/parcel-plugin-handlebars/tree/master/examples/simple)
+- [advanced](https://github.com/TheBlackBolt/parcel-plugin-handlebars/tree/master/examples/advanced)
 
 ## Configuration
 
@@ -78,9 +79,11 @@ module.exports = {
 ## Features
 
 ### frontmatter
+
 The plugin has built in support for frontmatter yaml. Processed yaml data will be passed into the templates before compilation. frontmatter yaml data will preferably be at the top of the template file such as the following example:
 
 #### Source - `example.hbs`
+
 ```html
 ---
 title: This is a heading
@@ -102,6 +105,7 @@ names:
 ```
 
 #### Output - `example.html`
+
 ```html
 <html>
   <body>
@@ -117,10 +121,12 @@ names:
 ```
 
 ### Handlebars Layouts
+
 The plugin has built in support for [handlebars-layouts](https://www.npmjs.com/package/handlebars-layouts). The [advanced example](https://github.com/TheBlackBolt/parcel-plugin-handlebars/tree/master/examples/advanced) shows how to take advantage of handlebars layouts.
 Please refer to their documentation for more information.
 
 ### Handlebars Helpers
+
 The plugin is also including all helpers found in the npm package [handlebars-helpers](https://www.npmjs.com/package/handlebars-helpers).
 Please refer to their documentation for example usages.
 
