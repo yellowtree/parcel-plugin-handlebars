@@ -1,6 +1,6 @@
 {
   "name": "@native_finance/parcel-plugin-handlebars",
-  "version": "0.8.0",
+  "version": "0.8.1",
   "description": "Parcel plugin to compile handlebars layouts templates.",
   "main": "index.js",
   "scripts": {
@@ -32,7 +32,7 @@
     "handlebars-helpers": "^0.10.0",
     "handlebars-layouts": "^3.1.4",
     "handlebars-wax": "^6.1.0",
-    "parcel-bundler": "^1.12.3"
+    "parcel-bundler": "^1.12.4"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.3",
